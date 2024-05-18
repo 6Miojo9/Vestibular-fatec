@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vw;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 100);
+}
+
+#banner{
+    width: 90%;
+    height: 100%;
+}
+
+.corpo{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.fatec{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.info{
+    width: 80%;
+    height: 100%;
+}
+
+.fatecSobre{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2{
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.video{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margem{
+    width: 65%;
+    height: 80%;
+    border: 3px gray solid;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video{
+    width: 90%;
+    height: 90%;
+}
+
+.cursos{
+    width: 100%;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cursos{
+    background-color: rgb(230, 230, 230);
+    width: 25%;
+    height: 95%;
+    border: 1px solid gray;
+    text-decoration: none;
+    color: black;
+    transition: 500ms;
+}
+
+#cursos:hover{
+    width: 30%;
+    height: 120%;
+    background-color: rgb(200, 200, 200);
+}
+
+#cursos img{
+    width: 100%;
+}
+
+#textButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vestibular{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#vestibular{
+    width: 80%;
+    height: 100%;
+    border: 3px solid gray;
+    border-radius: 2%;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p a{
+    text-decoration: none;
+    color: black;
+}
+
+.infocurso{
+    width: 100%;
+    height: 900px;
+}
+
+.apresentacao{
+    width: 100%;
+    height: 40%;
+    border: 3px solid gray;    
+    background-color: rgb(190, 190, 190);
+    display: flex;
+    justify-content: center;
+}
+
+#apresentacao{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#apresentacao img{
+    width: 50%;
+    height: 100%;
+}
+
+.titulo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h1{
+    width: 50%;
+}
+.conteudo{
+    width: 100%;
+    height: 59%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteudo{
+    width: 80%;
+    height: 100%;
+    border: 3px solid gray;
+    border-radius: 1%;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteudo p{
+    width: 80%;
+    height: 60%;
+}
+
+.rodape{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(75, 75, 75);
+    color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
